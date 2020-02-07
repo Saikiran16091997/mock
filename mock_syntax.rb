@@ -28,7 +28,7 @@ end
 Then(/^I should navigate to next page where I should see headingText as Verifying your phone number$/) do
     @browser.element(:id => "headingText").exists?
    student = {1 => ['BoB','18],
-           2 => ['jack','19'],    
+           2 => ['jack','19],    
            3 => ['jane','15']}
   student.each{|id, name, age| puts "key : #{id}, value : #{name} #{age}"}
 end
