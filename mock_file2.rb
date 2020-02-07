@@ -14,6 +14,16 @@ class Strings
                 else
                     @arr4.push(x)
              end
-        end             
+        end    
+        
+        $arr.each do |x|
+            if x.class == Fixnum
+                    @arr2.push(x)
+                elsif x.class == String   
+                    @arr3.push(x)
+                else
+                    @arr4.push(x)
+             end
+        end 
    end
 end
